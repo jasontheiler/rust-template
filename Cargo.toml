@@ -1,0 +1,14 @@
+# See: https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "rust-template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+color-eyre = "0.6"
+env_logger = "0.10"
+figment = { version = "0.10", features = ["env", "toml"] }
+figment_file_provider_adapter = "0.1"
+log = "0.4"
+serde = { version = "1.0", features = ["derive"] }
